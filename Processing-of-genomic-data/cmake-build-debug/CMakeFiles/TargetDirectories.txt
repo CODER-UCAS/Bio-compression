@@ -1,0 +1,3 @@
+D:/CCF A genmoic data/ProjectMain/cmake-build-debug/CMakeFiles/ProjectMain.dir
+D:/CCF A genmoic data/ProjectMain/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CCF A genmoic data/ProjectMain/cmake-build-debug/CMakeFiles/rebuild_cache.dir
