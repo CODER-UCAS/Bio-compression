@@ -1,4 +1,4 @@
-"D:\Clion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\CCF A genmoic data\ProjectMain"
+"D:\Clion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data
 -- The C compiler identification is GNU 8.1.0
 -- The CXX compiler identification is GNU 8.1.0
 -- Check for working C compiler: D:/MIngG-W 64/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/gcc.exe
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/CCF A genmoic data/ProjectMain/cmake-build-debug
+-- Build files have been written to: D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug

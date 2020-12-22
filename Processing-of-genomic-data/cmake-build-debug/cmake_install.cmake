@@ -1,4 +1,4 @@
-# Install script for directory: D:/CCF A genmoic data/ProjectMain
+# Install script for directory: D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CCF A genmoic data/ProjectMain/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

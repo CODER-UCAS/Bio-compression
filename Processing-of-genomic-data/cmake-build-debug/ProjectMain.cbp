@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/CCF A genmoic data/ProjectMain/cmake-build-debug"/>
+				<Option working_dir="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ProjectMain">
-				<Option output="D:/CCF A genmoic data/ProjectMain/cmake-build-debug/ProjectMain.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CCF A genmoic data/ProjectMain/cmake-build-debug"/>
+				<Option output="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/ProjectMain.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="D:/MIngG-W 64/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectMain"/>
-					<CompileFile command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectMain"/>
+					<CompileFile command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ProjectMain/fast">
-				<Option output="D:/CCF A genmoic data/ProjectMain/cmake-build-debug/ProjectMain.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CCF A genmoic data/ProjectMain/cmake-build-debug"/>
+				<Option output="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/ProjectMain.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,37 +53,37 @@
 					<Add directory="D:/MIngG-W 64/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectMain/fast"/>
-					<CompileFile command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectMain/fast"/>
+					<CompileFile command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/CCF A genmoic data/ProjectMain/cmake-build-debug"/>
+				<Option working_dir="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/CCF A genmoic data/ProjectMain/cmake-build-debug"/>
+				<Option working_dir="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/CCF A genmoic data/ProjectMain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGG-~1/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CCF A genmoic data/ProjectMain/main.cpp">
+		<Unit filename="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/main.cpp">
 			<Option target="ProjectMain"/>
 		</Unit>
-		<Unit filename="D:/CCF A genmoic data/ProjectMain/CMakeLists.txt">
+		<Unit filename="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
