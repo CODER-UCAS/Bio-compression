@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/main.cpp
+iostream
+-
+fstream
+-
+cstring
+D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/cstring
+
