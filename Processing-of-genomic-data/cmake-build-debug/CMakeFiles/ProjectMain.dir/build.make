@@ -89,19 +89,64 @@ CMakeFiles/ProjectMain.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectMain.dir/main.cpp.s"
 	D:\MINGG-~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\main.cpp -o CMakeFiles\ProjectMain.dir\main.cpp.s
 
+CMakeFiles/ProjectMain.dir/Transform.cpp.obj: CMakeFiles/ProjectMain.dir/flags.make
+CMakeFiles/ProjectMain.dir/Transform.cpp.obj: ../Transform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProjectMain.dir/Transform.cpp.obj"
+	D:\MINGG-~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectMain.dir\Transform.cpp.obj -c D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\Transform.cpp
+
+CMakeFiles/ProjectMain.dir/Transform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectMain.dir/Transform.cpp.i"
+	D:\MINGG-~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\Transform.cpp > CMakeFiles\ProjectMain.dir\Transform.cpp.i
+
+CMakeFiles/ProjectMain.dir/Transform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectMain.dir/Transform.cpp.s"
+	D:\MINGG-~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\Transform.cpp -o CMakeFiles\ProjectMain.dir\Transform.cpp.s
+
+CMakeFiles/ProjectMain.dir/Search.cpp.obj: CMakeFiles/ProjectMain.dir/flags.make
+CMakeFiles/ProjectMain.dir/Search.cpp.obj: ../Search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProjectMain.dir/Search.cpp.obj"
+	D:\MINGG-~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectMain.dir\Search.cpp.obj -c D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\Search.cpp
+
+CMakeFiles/ProjectMain.dir/Search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectMain.dir/Search.cpp.i"
+	D:\MINGG-~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\Search.cpp > CMakeFiles\ProjectMain.dir\Search.cpp.i
+
+CMakeFiles/ProjectMain.dir/Search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectMain.dir/Search.cpp.s"
+	D:\MINGG-~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\Search.cpp -o CMakeFiles\ProjectMain.dir\Search.cpp.s
+
+CMakeFiles/ProjectMain.dir/DataReader.cpp.obj: CMakeFiles/ProjectMain.dir/flags.make
+CMakeFiles/ProjectMain.dir/DataReader.cpp.obj: ../DataReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProjectMain.dir/DataReader.cpp.obj"
+	D:\MINGG-~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectMain.dir\DataReader.cpp.obj -c D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\DataReader.cpp
+
+CMakeFiles/ProjectMain.dir/DataReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectMain.dir/DataReader.cpp.i"
+	D:\MINGG-~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\DataReader.cpp > CMakeFiles\ProjectMain.dir\DataReader.cpp.i
+
+CMakeFiles/ProjectMain.dir/DataReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectMain.dir/DataReader.cpp.s"
+	D:\MINGG-~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\DataReader.cpp -o CMakeFiles\ProjectMain.dir\DataReader.cpp.s
+
 # Object files for target ProjectMain
 ProjectMain_OBJECTS = \
-"CMakeFiles/ProjectMain.dir/main.cpp.obj"
+"CMakeFiles/ProjectMain.dir/main.cpp.obj" \
+"CMakeFiles/ProjectMain.dir/Transform.cpp.obj" \
+"CMakeFiles/ProjectMain.dir/Search.cpp.obj" \
+"CMakeFiles/ProjectMain.dir/DataReader.cpp.obj"
 
 # External object files for target ProjectMain
 ProjectMain_EXTERNAL_OBJECTS =
 
 ProjectMain.exe: CMakeFiles/ProjectMain.dir/main.cpp.obj
+ProjectMain.exe: CMakeFiles/ProjectMain.dir/Transform.cpp.obj
+ProjectMain.exe: CMakeFiles/ProjectMain.dir/Search.cpp.obj
+ProjectMain.exe: CMakeFiles/ProjectMain.dir/DataReader.cpp.obj
 ProjectMain.exe: CMakeFiles/ProjectMain.dir/build.make
 ProjectMain.exe: CMakeFiles/ProjectMain.dir/linklibs.rsp
 ProjectMain.exe: CMakeFiles/ProjectMain.dir/objects1.rsp
 ProjectMain.exe: CMakeFiles/ProjectMain.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProjectMain.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\smart_match\Processing-of-genomic-data\Processing-of-genomic-data\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ProjectMain.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ProjectMain.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

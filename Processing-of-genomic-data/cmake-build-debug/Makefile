@@ -142,6 +142,87 @@ ProjectMain/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/build
 .PHONY : ProjectMain/fast
 
+DataReader.obj: DataReader.cpp.obj
+
+.PHONY : DataReader.obj
+
+# target to build an object file
+DataReader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/DataReader.cpp.obj
+.PHONY : DataReader.cpp.obj
+
+DataReader.i: DataReader.cpp.i
+
+.PHONY : DataReader.i
+
+# target to preprocess a source file
+DataReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/DataReader.cpp.i
+.PHONY : DataReader.cpp.i
+
+DataReader.s: DataReader.cpp.s
+
+.PHONY : DataReader.s
+
+# target to generate assembly for a file
+DataReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/DataReader.cpp.s
+.PHONY : DataReader.cpp.s
+
+Search.obj: Search.cpp.obj
+
+.PHONY : Search.obj
+
+# target to build an object file
+Search.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/Search.cpp.obj
+.PHONY : Search.cpp.obj
+
+Search.i: Search.cpp.i
+
+.PHONY : Search.i
+
+# target to preprocess a source file
+Search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/Search.cpp.i
+.PHONY : Search.cpp.i
+
+Search.s: Search.cpp.s
+
+.PHONY : Search.s
+
+# target to generate assembly for a file
+Search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/Search.cpp.s
+.PHONY : Search.cpp.s
+
+Transform.obj: Transform.cpp.obj
+
+.PHONY : Transform.obj
+
+# target to build an object file
+Transform.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/Transform.cpp.obj
+.PHONY : Transform.cpp.obj
+
+Transform.i: Transform.cpp.i
+
+.PHONY : Transform.i
+
+# target to preprocess a source file
+Transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/Transform.cpp.i
+.PHONY : Transform.cpp.i
+
+Transform.s: Transform.cpp.s
+
+.PHONY : Transform.s
+
+# target to generate assembly for a file
+Transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/Transform.cpp.s
+.PHONY : Transform.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +259,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ProjectMain
+	@echo ... DataReader.obj
+	@echo ... DataReader.i
+	@echo ... DataReader.s
+	@echo ... Search.obj
+	@echo ... Search.i
+	@echo ... Search.s
+	@echo ... Transform.obj
+	@echo ... Transform.i
+	@echo ... Transform.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
