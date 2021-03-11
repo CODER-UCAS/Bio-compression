@@ -6,17 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/Transform.cpp
-Transform.h
-D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/Transform.h
-
-D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/Transform.h
+D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/Search.cpp
 iostream
 -
-string
--
-fstream
--
-cmath
+vector
 -
 

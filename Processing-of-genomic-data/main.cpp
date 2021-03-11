@@ -6,12 +6,16 @@
  */
 #include <iostream>
 #include "Transform.h"
+#include "Search.h"
 using namespace std;
 
 int main()
 {
-    string str="D:\\smart_match\\Processing-of-genomic-data\\Processing-of-genomic-data\\data\\Align3.txt";
-    transform(str);
+    vector<unsigned char> line;
+    vector<vector<int>> location;
+    string str="../data/Align2.txt";
+    transform(str,line);
+    location=AccurateSearch(line);
     return 0;
 }
 

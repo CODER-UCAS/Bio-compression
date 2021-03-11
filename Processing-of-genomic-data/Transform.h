@@ -7,11 +7,13 @@
 #include <string>
 #include <fstream>
 #include <cmath>
+#include <vector>
+
 #ifndef PROJECTMAIN_TRANSFORM_H //条件编译
 #define PROJECTMAIN_TRANSFORM_H
 using namespace std;
 /** The function of Comprressed data!**/
-int transform(string file1);
+void transform(string file1,vector<unsigned char>&line );
 int Convert(char ch,char ch1,char ch2 ,char ch3);
 string BinaryCreate(char ch);
 #endif //PROJECTMAIN_TRANSFORM_H

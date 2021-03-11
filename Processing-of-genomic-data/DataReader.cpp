@@ -7,21 +7,24 @@
 #include <iostream>
 #include "DataReader.h"
 using namespace std;
+
 //Read and write function one
 void DataReader() {
     try {
         std::string buffer;
-        std::fstream afile("D:\\smart_match\\Processing-of-genomic-data\\Processing-of-genomic-data\\data\\Align1.txt");
-        std::fstream afile1(
-                "D:\\smart_match\\Processing-of-genomic-data\\Processing-of-genomic-data\\data\\Align2.txt");
-        if (!afile.is_open()) {
+        std::fstream afile("../data/Align1.txt");
+        std::fstream afile1("../data/Align2.txt");
+        if (!afile.is_open())
+        {
             std::cout << "Error opening file!";
             exit(1);
         }
         int i = 0;
-        while (!afile.eof()) {
+        while (!afile.eof())
+        {
             afile >> buffer;
-            for (i = 0; i < buffer.length(); i += 1000) {
+            for (i = 0; i < buffer.length(); i += 1000)
+            {
                 afile1 << buffer.substr(i, 1000);
                 if (i + 1000 <= buffer.length())
                     afile1 << std::endl;
@@ -30,18 +33,20 @@ void DataReader() {
         afile.close();
         afile1.close();
     }
-    catch (std::exception ex) {
+    catch (exception ex) {
         std::cout << "File open failed!" << "The Reason is:" << std::endl << ex.what();
     }
 }
+
+
 //Read and write function two
 void DataReader2()
 {
     try
     {
         char buffer;
-        fstream  afile("D:\\smart_match\\Processing-of-genomic-data\\Processing-of-genomic-data\\data\\Align1.txt");
-        fstream  afile1("D:\\smart_match\\Processing-of-genomic-data\\Processing-of-genomic-data\\data\\Align2.txt");
+        fstream  afile("../data/Align1.txt");
+        fstream  afile1("../data/Align2.txt");
         if(!afile.is_open())
         {
             cout << "Error opening file";
