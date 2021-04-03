@@ -1,5 +1,4 @@
 # Processing-of-genomic-data
-This repository is created  for Compressed genomic data and searching !
-Created by Clion and C++!
+  This repository is created  for Compressed genomic data and searching !Created by Clion and C++!
 # Introduction
-This project is a 
+  This project is a spcial and beautiful idea proposed by prof. JingYing Wang and Zizhao Wang. 
