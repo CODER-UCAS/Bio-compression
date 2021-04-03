@@ -42,8 +42,6 @@ public:
             }
             j++;
         }
-        for(int i=0;i<Push['A'].size();i++)
-            cout<<Push['A'][i]<<" ";
     }
 };
 

@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/Cache.h">
+			<Option target="ProjectMain"/>
+		</Unit>
 		<Unit filename="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/DataReader.cpp">
 			<Option target="ProjectMain"/>
 		</Unit>
