@@ -5,4 +5,7 @@
 # Method
   1. we used a special invert index and Memory storage technology, a Cache-like technology;
   2. We proposed a beautiful method that can compressed DNA data;
-  3.
+  3. We proposed a algorithm that can accurately and quickly search the string including similarity search.
+# Algorithm
+# Install
+# use it in your computer
