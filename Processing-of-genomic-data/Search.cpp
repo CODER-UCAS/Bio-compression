@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <vector>
+#include "Index.h"
 
 using namespace std;
 
@@ -18,6 +19,8 @@ vector<unsigned char> change(string str)
 
 vector<vector<int>> AccurateSearch(vector<unsigned char> line)
 {
+    Index Index_list;
+    
     //cout<<"Input the string to be found\n";
     string str=" ACA";
     //cin>>str;
