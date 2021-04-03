@@ -19,9 +19,8 @@ vector<unsigned char> change(string str)
 
 vector<vector<int>> AccurateSearch(vector<unsigned char> line)
 {
-    Index Index_list;
-    
-    //cout<<"Input the string to be found\n";
+    Index search_index;
+    search_index.Traverse();
     string str=" ACA";
     //cin>>str;
     int com;
@@ -32,13 +31,12 @@ vector<vector<int>> AccurateSearch(vector<unsigned char> line)
         {
             if(3==((line[i]&com)>>(j*2)))
             {
-                cout<<i*4+4-j<<endl;
+                //cout<<i*4+4-j<<endl;
                 break;
             }
             com/=4;
         }
     }
-    //cout<<((line[0]&12)>>0)<<endl;
     vector<vector<int>> Location;
     return Location;
 }

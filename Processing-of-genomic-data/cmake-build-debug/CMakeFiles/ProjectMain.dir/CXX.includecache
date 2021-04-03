@@ -6,9 +6,33 @@
 
 #IncludeRegexTransform: 
 
+D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/DataReader.cpp
+array
+-
+fstream
+-
+iostream
+-
+DataReader.h
+D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/DataReader.h
+Index.h
+D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/Index.h
+
+D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/DataReader.h
+
+D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/Index.h
+unordered_map
+-
+fstream
+-
+vector
+-
+
 D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/Search.cpp
 iostream
 -
 vector
 -
+Index.h
+D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/Index.h
 

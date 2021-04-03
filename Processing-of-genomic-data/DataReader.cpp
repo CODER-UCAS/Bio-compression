@@ -6,6 +6,8 @@
 #include <fstream>
 #include <iostream>
 #include "DataReader.h"
+#include "Index.h"
+
 using namespace std;
 
 //Read and write function one
@@ -60,8 +62,7 @@ void DataReader2()
             {
                 i++;
                 afile1<<buffer;
-                if(i%1000==0)
-                    afile1<<endl;
+                if(i%1000==0)  afile1<<endl;
             }
         }
         afile.close();
@@ -72,3 +73,4 @@ void DataReader2()
         cout<<"File open failed!"<<"The Reason is:"<<endl<<ex.what();
     }
 }
+

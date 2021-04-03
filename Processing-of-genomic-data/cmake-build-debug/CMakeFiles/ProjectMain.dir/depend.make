@@ -3,7 +3,9 @@
 
 CMakeFiles/ProjectMain.dir/DataReader.cpp.obj: ../DataReader.cpp
 CMakeFiles/ProjectMain.dir/DataReader.cpp.obj: ../DataReader.h
+CMakeFiles/ProjectMain.dir/DataReader.cpp.obj: ../Index.h
 
+CMakeFiles/ProjectMain.dir/Search.cpp.obj: ../Index.h
 CMakeFiles/ProjectMain.dir/Search.cpp.obj: ../Search.cpp
 
 CMakeFiles/ProjectMain.dir/Transform.cpp.obj: ../Transform.cpp
