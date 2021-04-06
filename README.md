@@ -9,7 +9,7 @@
 # Algorithm
 # Install
   If you want to install our program,you can download this code and open it in your Clion 2020.3.
-# Version environment
+# Version environment  
 
   1. __IDE version__:
       Clion 2020.3
@@ -35,3 +35,5 @@
 # use it in your computer
   Download it and open it!
   
+# License
+  This is a free software. See the file LICENSE for the full text.
