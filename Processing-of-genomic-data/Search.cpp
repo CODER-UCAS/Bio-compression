@@ -21,6 +21,8 @@ vector<vector<int>> AccurateSearch(vector<unsigned char> line)
 {
     Index search_index;
     search_index.Traverse();
+    CompressedIndex index2;
+    index2.Traverse();
     string str=" ACA";
     //cin>>str;
     int com;
