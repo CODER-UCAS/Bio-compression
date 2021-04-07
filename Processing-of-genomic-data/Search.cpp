@@ -19,12 +19,12 @@ vector<unsigned char> change(string str)
 
 vector<vector<int>> AccurateSearch(vector<unsigned char> line)
 {
+    string str="CGTATTGTATCGATCCTCGTGACAGTGACAAGGAAGCTGCAGCCATCATACCGCCCGATTACAGTCGCTCCCACAGCTAGGGCCCTAGGCAGCTATTGT";
     GeneralIndex search_index;
     search_index.Traverse();
+    search_index.Getlocation(str);
     CompressedIndex index2;
     index2.Traverse();
-    string str=" ACA";
-    //cin>>str;
     int com;
     for(int i=0;i<line.size();i++)
     {

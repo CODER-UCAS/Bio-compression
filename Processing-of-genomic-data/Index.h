@@ -7,32 +7,35 @@
 #include <unordered_map>
 #include <fstream>
 #include <vector>
+#include <ctime>
 using namespace std;
 
 
 class  Index
 {
+private:
+    static unordered_map<char,vector<unsigned int>> hash_map;
 public:
-    unordered_map<char,vector<unsigned int>> hash_map;
+
     static int Traverse()
     {
         cout<<"The index had be implemented!";
+        return 1;
     }
     static unordered_map<char,vector<unsigned int>> GetIndex()
     {
+
         cout<<"The index had backed to the main program";
+        return  hash_map;
     }
-
-private:
-
 };
 
 class GeneralIndex: public Index{
 private:
-    unordered_map<char, vector <unsigned  int>> hash_map;
+    unordered_map<char, vector <int>> hash_map;
 public:
 
-    unordered_map<char,vector<unsigned int>> GetIndex(char ch,int a)
+    unordered_map<char,vector<int>> GetIndex(char ch,int a)
     {
         return hash_map;
     }
@@ -57,7 +60,37 @@ public:
             }
             j++;
         }
-        return  1;
+        return  hash_map['A'].size()+hash_map['C'].size()+hash_map['G'].size()+hash_map['T'].size();
+    }
+
+    void Getlocation(string str)
+    {
+        char ch=str[0];
+        vector<vector<int>> back;
+        clock_t start=clock();
+        for(int i=0;i<hash_map[ch].size();++i)
+        {
+            int key=hash_map[ch][i]+1;
+            bool flag;
+            for(int j=1;j<str.size();j++)
+            {
+
+                flag= false;
+               for(int k=0;k<hash_map[str[j]].size();++k)
+                   if(hash_map[str[j]][k]==key)
+                       flag= true;
+                if(!flag)
+                    break;
+                key++;
+            };
+            if(flag)
+                back.push_back({hash_map[ch][i],key-1});
+        }
+        clock_t finish=clock();
+        double time=(double)(finish - start) / CLOCKS_PER_SEC;
+        cout<<"Spend time\n";
+        cout<<time<<"seconds"<<endl;
+
     }
 };
 
@@ -110,7 +143,7 @@ public:
                 j=j>>1;
             }
         }
-        return  1;
+        return  hash_map.size();
     }
 };
 

@@ -4,21 +4,20 @@
 
 #ifndef PROJECTMAIN_PRECISEQUERY_H
 #define PROJECTMAIN_PRECISEQUERY_H
+#include "Index.h"
 
 class PreciseSearch
 {
 private:
-    GeneralIndex index1;
-    CompressedIndex index2;
+    Index index;
 public:
-    PreciseSearch()
-    {
-
-    }
     void SearchMethod(int flag)
     {
-        if(flag%2==0)
-            index
+        if(flag==1)
+            index=new GeneralIndex();
+        else
+            index=new CompressedIndex();
+
     }
 };
 
