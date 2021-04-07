@@ -9,20 +9,35 @@
 #include <vector>
 using namespace std;
 
-class Index{
-private:
-    unordered_map<char, vector < int>> Push;
+
+class  Index
+{
 public:
-    vector<int> Create(char  ch)
+    unordered_map<char,vector<unsigned int>> hash_map;
+    static int Traverse()
     {
-        return  Push[ch];
+        cout<<"The index had be implemented!";
     }
-    int set(char ch,int a)
+    static unordered_map<char,vector<unsigned int>> GetIndex()
     {
-        Push[ch].push_back(a);
-        return 1;
+        cout<<"The index had backed to the main program";
     }
-    void Traverse()
+
+private:
+
+};
+
+class GeneralIndex: public Index{
+private:
+    unordered_map<char, vector <unsigned  int>> hash_map;
+public:
+
+    unordered_map<char,vector<unsigned int>> GetIndex(char ch,int a)
+    {
+        return hash_map;
+    }
+
+    int Traverse()
     {
         std::ifstream file("../data/Align2.txt");
         if(!file.is_open())
@@ -38,25 +53,25 @@ public:
             string string1=buffer;
             for(int i=0;i<string1.length();i++)
             {
-                Push[string1[i]].push_back(i+j*1000);
+                hash_map[string1[i]].push_back(i+j*1000);
             }
             j++;
         }
+        return  1;
     }
 };
 
-class CompressedIndex
+class CompressedIndex: public Index
 {
 private:
-    unordered_map<char,vector<long long>> hash_map;
+    unordered_map<char,vector<unsigned int >> hash_map;
 public:
-    unordered_map<char,vector<long long>> Gethash()
+    unordered_map<char,vector<unsigned int>> GetIndex()
     {
         return hash_map;
     }
-    CompressedIndex(){}
 
-    void Traverse()
+    int  Traverse()
     {
         std::ifstream file("../data/Align2.txt");
         if(!file.is_open())
@@ -95,6 +110,7 @@ public:
                 j=j>>1;
             }
         }
+        return  1;
     }
 };
 

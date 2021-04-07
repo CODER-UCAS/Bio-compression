@@ -19,7 +19,7 @@ vector<unsigned char> change(string str)
 
 vector<vector<int>> AccurateSearch(vector<unsigned char> line)
 {
-    Index search_index;
+    GeneralIndex search_index;
     search_index.Traverse();
     CompressedIndex index2;
     index2.Traverse();

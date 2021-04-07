@@ -92,6 +92,9 @@
 		<Unit filename="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/Index.h">
 			<Option target="ProjectMain"/>
 		</Unit>
+		<Unit filename="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/PreciseQuery.h">
+			<Option target="ProjectMain"/>
+		</Unit>
 		<Unit filename="D:/smart_match/Processing-of-genomic-data/Processing-of-genomic-data/Search.cpp">
 			<Option target="ProjectMain"/>
 		</Unit>
