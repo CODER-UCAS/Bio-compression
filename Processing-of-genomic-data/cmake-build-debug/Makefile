@@ -169,6 +169,33 @@ DataReader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/DataReader.cpp.s
 .PHONY : DataReader.cpp.s
 
+Editdistance.obj: Editdistance.cpp.obj
+
+.PHONY : Editdistance.obj
+
+# target to build an object file
+Editdistance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/Editdistance.cpp.obj
+.PHONY : Editdistance.cpp.obj
+
+Editdistance.i: Editdistance.cpp.i
+
+.PHONY : Editdistance.i
+
+# target to preprocess a source file
+Editdistance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/Editdistance.cpp.i
+.PHONY : Editdistance.cpp.i
+
+Editdistance.s: Editdistance.cpp.s
+
+.PHONY : Editdistance.s
+
+# target to generate assembly for a file
+Editdistance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectMain.dir\build.make CMakeFiles/ProjectMain.dir/Editdistance.cpp.s
+.PHONY : Editdistance.cpp.s
+
 Search.obj: Search.cpp.obj
 
 .PHONY : Search.obj
@@ -262,6 +289,9 @@ help:
 	@echo ... DataReader.obj
 	@echo ... DataReader.i
 	@echo ... DataReader.s
+	@echo ... Editdistance.obj
+	@echo ... Editdistance.i
+	@echo ... Editdistance.s
 	@echo ... Search.obj
 	@echo ... Search.i
 	@echo ... Search.s

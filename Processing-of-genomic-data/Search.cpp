@@ -19,8 +19,8 @@ vector<unsigned char> change(string str)
 
 vector<vector<int>> AccurateSearch(vector<unsigned char> line)
 {
-    string str="CGTATTGTATCGATCCTCGTGACAGTGACAAGGAAGCTGCAGCCATCATACCGCCCGATTACAGTCGCTCCCACAGCTAGGGCCCTAGGCAGCTATTGT";
-    GeneralIndex search_index;
+    string str="GTACGTCTACAAGCTGGTAATGCAACAGAAGTGCCTGCCAATTCAA";
+    CompressedIndex search_index;
     search_index.Traverse();
     search_index.Getlocation(str);
     CompressedIndex index2;

@@ -3,4 +3,4 @@ project(ProjectMain)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ProjectMain main.cpp Transform.cpp Transform.h Search.h Search.cpp DataReader.cpp DataReader.h Index.h Cache.h PreciseQuery.h)
+add_executable(ProjectMain main.cpp Transform.cpp Transform.h Search.h Search.cpp DataReader.cpp DataReader.h Index.h Cache.h PreciseQuery.h Editdistance.cpp)
